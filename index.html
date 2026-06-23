@@ -97,6 +97,8 @@
   /* ===== 오시는 길 ===== */
   .map-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;margin-top:40px;align-items:stretch;}
   .map-box{background:var(--navy-light);border-radius:var(--radius);min-height:320px;display:flex;align-items:center;justify-content:center;color:var(--text-soft);border:1px dashed #c4ccdb;text-align:center;padding:20px;}
+  .map-embed{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);min-height:460px;background:var(--navy-light);}
+  .map-embed iframe{width:100%;height:100%;min-height:460px;border:0;display:block;}
   .map-info li{list-style:none;padding:18px 0;border-bottom:1px solid var(--line);}
   .map-info li b{display:block;color:var(--navy);font-weight:700;margin-bottom:4px;font-size:15px;}
   .map-info li span{color:var(--text-soft);font-size:16px;}
@@ -225,6 +227,11 @@
       <div class="care-card"><div class="care-photo"><img src="care-diet.jpg" alt="체질 다이어트" /></div><div class="care-body"><h3>체질 다이어트</h3><p>무리 없이 건강하게, 체질 기반 감량 프로그램</p></div></div>
       <div class="care-card"><div class="care-photo"><img src="care-tonic.jpg" alt="성인·소아 보약" /></div><div class="care-body"><h3>성인·소아 보약</h3><p>면역·성장·회복을 돕는 연령별 맞춤 보약</p></div></div>
       <div class="care-card"><div class="care-photo"><img src="gongjindan.jpg" alt="공진단 경옥고" /></div><div class="care-body"><h3>공진단 경옥고</h3><p>최고급 사향으로 만든 명품 공진단과 편의성을 극대화한 경옥고</p></div></div>
+      <div class="care-card"><div class="care-photo"><img src="care-rhinitis.jpg" alt="비염·알레르기" /></div><div class="care-body"><h3>비염·알레르기</h3><p>코막힘·재채기·알레르기 체질을 근본부터 관리</p></div></div>
+      <div class="care-card"><div class="care-photo"><img src="care-growth.jpg" alt="소아 성장·키" /></div><div class="care-body"><h3>소아 성장·키</h3><p>성장기 아이의 키와 발달을 돕는 맞춤 한방 치료</p></div></div>
+      <div class="care-card"><div class="care-photo"><img src="care-women.jpg" alt="여성질환·생리통·갱년기" /></div><div class="care-body"><h3>여성질환·생리통·갱년기</h3><p>생리통·생리불순부터 갱년기까지 여성 건강 관리</p></div></div>
+      <div class="care-card"><div class="care-photo"><img src="care-digest.jpg" alt="소화기·위장" /></div><div class="care-body"><h3>소화기·위장</h3><p>소화불량·속쓰림·자주 체하는 등 위장 기능 개선</p></div></div>
+      <div class="care-card"><div class="care-photo"><img src="care-sleep.jpg" alt="불면·만성피로·스트레스" /></div><div class="care-body"><h3>불면·만성피로·스트레스</h3><p>불면·피로·스트레스로 지친 몸과 마음의 균형 회복</p></div></div>
     </div>
   </div>
 </section>
@@ -243,7 +250,7 @@
         </tbody>
       </table>
     </div>
-    <p class="hours-note">※ 평일 매일 오후 7시까지 진료합니다. 일요일 및 공휴일은 휴진입니다. (대체공휴일 오전진료 합니다.)</p>
+    <p class="hours-note">※ 평일 매일 오후 7시까지 진료합니다. 일요일 및 공휴일은 휴진입니다. (대체공휴일은 오전진료 합니다.)</p>
   </div>
 </section>
 
